@@ -94,8 +94,7 @@ Deployed seamlessly on **Vercel**, with a functional contact form powered by **R
 Software Engineer passionate about modern web development, UI/UX, and clean architecture. Focused on creating fast, aesthetic, and meaningful digital experiences.
 
 - 📫 **Website:** [devsantiago.vercel.app](https://devsantiago.vercel.app)
-- 💼 **LinkedIn:** [linkedin.com/in/santiagoricardoramirez](https://linkedin.com/in/santiagoricardoramirez)
-- 🐙 **GitHub:** [github.com/SantiagoRicardoRamirez](https://github.com/SantiagoRicardoRamirez)
+- 💼 **LinkedIn:** [linkedin.com/in/santiago-ricardo-ramirez](https://www.linkedin.com/in/santiago-ricardo-ramirez-0aab011b0/)
 
 ## ☁️ Deployment (Vercel Recommended)
 
