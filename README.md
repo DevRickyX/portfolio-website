@@ -96,12 +96,7 @@ Software Engineer passionate about modern web development, UI/UX, and clean arch
 - 📫 **Website:** [devsantiago.vercel.app](https://devsantiago.vercel.app)
 - 💼 **LinkedIn:** [linkedin.com/in/santiago-ricardo-ramirez](https://www.linkedin.com/in/santiago-ricardo-ramirez-0aab011b0/)
 
-## ☁️ Deployment (Vercel Recommended)
-
-1. Push your project to GitHub
-2. Import it into your [Vercel Dashboard](https://vercel.com)
-3. Add the environment variables listed above
-4. Deploy — Vercel will automatically handle the build & hosting
+## ☁️ Deployment: Vercel
 
 ## 🪪 License
 
