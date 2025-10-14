@@ -1,52 +1,69 @@
-import { Project } from '../types';
+import { Project } from "../types";
 
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'E-Commerce Revolution',
-    description: 'Next-generation e-commerce platform with AI-powered recommendations and seamless payment integration',
-    longDescription: 'A comprehensive e-commerce solution built with React and Next.js, featuring real-time inventory management, AI-powered product recommendations, advanced search filters, and integrated payment processing with Stripe. The platform includes an admin dashboard for managing products, orders, and analytics.',
-    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe'],
-    image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-    demoUrl: 'https://demo-ecommerce.example.com',
-    githubUrl: 'https://github.com/santiago/ecommerce-platform',
+    title: "Timebli",
+    description:
+      "The fastest and simplest tool for efficient time tracking and productivity management.",
+    longDescription:
+      "Timebli is a modern time tracking platform designed to help teams and professionals manage their work hours effortlessly. With a clean interface and real-time insights, it allows users to track tasks, monitor productivity, and generate detailed reports with just a few clicks. Perfect for freelancers, companies, and remote teams who value efficiency and clarity.",
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    image:
+      "https://ecpcjtmfcgfwpsjfetsf.supabase.co/storage/v1/object/public/projects/Timebli.png", // puedes reemplazar con la imagen real si la tienes
+    demoUrl: "https://www.timebli.com/",
+    githubUrl: "https://github.com/CarlosSalasCarpio/timebli-front",
     featured: true,
-    category: 'Web Development'
+    category: "Productivity Tools and Full Stack Development",
   },
+
   {
     id: 2,
-    title: 'FinTech Mobile App',
-    description: 'Revolutionary mobile banking solution with biometric security and real-time analytics',
-    longDescription: 'A secure mobile banking application developed with Flutter, featuring biometric authentication, real-time transaction monitoring, budget tracking, and investment portfolio management. The app includes push notifications, offline capabilities, and seamless integration with banking APIs.',
-    technologies: ['Flutter', 'Dart', 'Firebase', 'REST APIs'],
-    image: 'https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=800',
-    demoUrl: 'https://demo-fintech.example.com',
-    githubUrl: 'https://github.com/santiago/fintech-mobile',
-    featured: true,
-    category: 'Mobile Development'
+    title: "Asoantioquia",
+    description:
+      "Recycling company committed to environmental sustainability and digital innovation.",
+    longDescription:
+      "Asoantioquia is a modern web platform developed for a recycling company dedicated to promoting environmental sustainability in Antioquia. Built with React 18+, TanStack Router, and Supabase, the site provides an optimized user experience to showcase the organization’s recycling programs, environmental initiatives, and community projects. Its clean design and fast performance reflect both the company’s ecological mission and its commitment to digital modernization.",
+    technologies: ["React 18+", "TanStack Router", "Supabase", "Tailwind CSS"],
+    image:
+      "https://ecpcjtmfcgfwpsjfetsf.supabase.co/storage/v1/object/public/projects/AsoAntioquia.png", // puedes reemplazarla por una imagen real
+    demoUrl: "https://web-asoantioquia-v2.vercel.app/",
+    githubUrl: "https://github.com/DevRickyX/Web-Asoantioquia.git",
+    featured: false,
+    category: "Web Development",
   },
+
   {
     id: 3,
-    title: 'AI Analytics Dashboard',
-    description: 'Intelligent business intelligence platform with predictive analytics and machine learning insights',
-    longDescription: 'A sophisticated analytics dashboard built with React and TypeScript, featuring interactive charts, real-time data visualization, predictive analytics using machine learning models, and customizable reporting tools. The platform processes large datasets and provides actionable business insights.',
-    technologies: ['React', 'TypeScript', 'D3.js', 'Python', 'MySQL'],
-    image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=800',
-    demoUrl: 'https://demo-analytics.example.com',
-    githubUrl: 'https://github.com/santiago/ai-analytics',
-    featured: false,
-    category: 'Web Development'
+    title: "Dorall Downtown",
+    description:
+      "Comprehensive real estate management system with dashboards, business control, and recurring user access.",
+    longDescription:
+      "Dorall Downtown is a full-featured real estate management system built with React 18+, TanStack Router, Supabase, and Tailwind CSS. It includes a complete dashboard for administrators, business management tools, and a client area for recurring users. The platform streamlines property administration, sales tracking, and customer interaction, offering a secure, modern, and intuitive experience for both managers and clients. Designed with scalability and performance in mind, Dorall Downtown bridges digital innovation with real estate business needs.",
+    technologies: ["React 18+", "TanStack Router", "Supabase", "Tailwind CSS"],
+    image:
+      "https://ecpcjtmfcgfwpsjfetsf.supabase.co/storage/v1/object/public/projects/Doral%20D..png",
+    demoUrl: "https://dorall-downtown.vercel.app/",
+    githubUrl: "https://github.com/DevRickyX/Dorall-Downtown",
+    featured: true,
+    category: "Full Stack Development",
   },
+
   {
     id: 4,
-    title: 'Social Media Platform',
-    description: 'Modern social networking app with real-time messaging and content sharing',
-    longDescription: 'A full-featured social media platform developed with React and Node.js, including real-time messaging, photo/video sharing, story features, user profiles, and advanced privacy controls. The platform supports millions of users with optimized performance and scalability.',
-    technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Supabase'],
-    image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800',
-    demoUrl: 'https://demo-social.example.com',
-    githubUrl: 'https://github.com/santiago/social-platform',
-    featured: false,
-    category: 'Full Stack'
-  }
+    title: "Nómadas Cargo",
+    description:
+      "Dual mobile app ecosystem for cargo management — connecting transporters and load generators in real time.",
+    longDescription:
+      "Nómadas Cargo is a comprehensive logistics ecosystem composed of two mobile applications: Nómadas Transportador and Nómadas Generador. Both apps are developed in Flutter with Dart and designed to optimize freight management and logistics operations. The platform connects transporters with companies and individuals who need cargo delivery, enabling real-time tracking, route management, and secure communication. With a clean and intuitive interface, Nómadas Cargo brings efficiency, transparency, and digital transformation to the logistics sector.",
+    technologies: ["Flutter", "Dart", "Firebase", "BloC Pattern"],
+    image:
+      "https://ecpcjtmfcgfwpsjfetsf.supabase.co/storage/v1/object/public/projects/Nomadas%20Cargo.png",
+    demoUrl:
+      "https://play.google.com/store/apps/developer?id=Nomadas+Cargo&hl=es_CO",
+    githubUrl:
+      "https://play.google.com/store/apps/developer?id=Nomadas+Cargo&hl=es_CO",
+    featured: true,
+    category: "Mobile Development",
+  },
 ];
