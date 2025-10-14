@@ -1,72 +1,114 @@
-# Portfolio Website v2
+# 🚀 Santiago Ricardo — Portfolio Website
 
-A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
+A **modern, responsive, and elegant portfolio** built with **React + TypeScript + Tailwind CSS**, designed to showcase my work, projects, and skills as a Software Engineer.  
+Deployed seamlessly on **Vercel**, with a functional contact form powered by **Resend API**.
 
-## Features
+🌎 **Live Demo:** [devsantiago.vercel.app](https://devsantiago.vercel.app/)
 
-- **Modern Design**: Clean, professional layout with smooth animations
-- **Responsive**: Fully responsive across all devices
-- **Contact Form**: Working email functionality via Resend API
-- **TypeScript**: Type-safe development
+---
 
-## Tech Stack
+## 🧩 Features
 
-- **Frontend**: React 18, TypeScript, Vite, Tailwind CSS
-- **Email**: Resend API
-- **Deployment**: Vercel (recommended)
+- 🎨 **Modern UI/UX** — Clean layout with smooth transitions and modular sections  
+- 📱 **Fully Responsive** — Optimized for all screen sizes  
+- 📬 **Functional Contact Form** — Integrated with Resend API for reliable email delivery  
+- 💡 **Type-Safe Codebase** — Built with TypeScript for maintainability  
+- 🧱 **Component-Based Architecture** — Reusable and scalable design  
 
-## Quick Start
+---
 
-1. **Install dependencies**
-   ```bash
-   pnpm install
-   ```
+## ⚙️ Tech Stack
 
-2. **Set up environment variables**
-   Create a `.env` file in the root directory:
-   ```env
-   RESEND_API_KEY=your_resend_api_key
-   RESEND_FROM="Portfolio Contact <onboarding@resend.dev>"
-   CONTACT_INBOX=your-email@example.com
-   ```
+| Layer | Technologies |
+|-------|---------------|
+| 🧠 **Frontend** | React 18 · TypeScript · Vite · Tailwind CSS |
+| ✉️ **Email** | Resend API |
+| 🚀 **Deployment** | Vercel |
+| 🧰 **Tooling** | ESLint · pnpm |
 
-3. **Start development server**
-   ```bash
-   pnpm dev
-   ```
+---
 
-4. **Open your browser**
-   Navigate to `http://localhost:5173`
+## 📂 Project Structure
 
-## Deployment
+```
+│   App.tsx
+│   index.css
+│   main.tsx
+│   vite-env.d.ts
+│   
+├───components
+│   │   index.ts
+│   │
+│   ├───layout
+│   │       Footer.tsx
+│   │       Header.tsx
+│   │       index.ts
+│   │
+│   ├───sections
+│   │       About.tsx
+│   │       Contact.tsx
+│   │       Hero.tsx
+│   │       index.ts
+│   │       Projects.tsx
+│   │       Skills.tsx
+│   │
+│   └───ui
+│           Button.tsx
+│           index.ts
+│           Modal.tsx
+│
+├───data
+│       contact.ts
+│       projects.ts
+│       skills.ts
+│
+├───hooks
+│       index.ts
+│       useContactForm.ts
+│       useMenu.ts
+│       useMousePosition.ts
+│       useProjectModal.ts
+│       useScroll.ts
+│
+├───types
+│       contact.ts
+│       index.ts
+│       project.ts
+│       skill.ts
+│
+└───utils
+        animations.ts
+        email.ts
+        index.ts
+        scroll.ts
 
-### Vercel (Recommended)
-
-1. **Connect to Vercel**
-   - Push your code to GitHub
-   - Import the project in Vercel dashboard
-
-2. **Add Environment Variables**
-   In your Vercel dashboard, add:
-   ```
-   RESEND_API_KEY=your_resend_api_key
-   RESEND_FROM=Portfolio Contact <onboarding@resend.dev>
-   CONTACT_INBOX=your-email@example.com
-   ```
-
-3. **Deploy**
-   - Vercel will automatically build and deploy your site
-   - The contact form will work immediately
-
-## Scripts
-
-```bash
-pnpm dev       # Start development server
-pnpm build     # Build for production
-pnpm preview   # Preview production build
-pnpm lint      # Run ESLint
 ```
 
-## License
+# Project Name
 
-MIT
+> A modern web application built with passion for performance and aesthetics.
+
+## 👨‍💻 About the Developer
+
+**Santiago Ricardo Ramírez**  
+Software Engineer passionate about modern web development, UI/UX, and clean architecture. Focused on creating fast, aesthetic, and meaningful digital experiences.
+
+- 📫 **Website:** [devsantiago.vercel.app](https://devsantiago.vercel.app)
+- 💼 **LinkedIn:** [linkedin.com/in/santiagoricardoramirez](https://linkedin.com/in/santiagoricardoramirez)
+- 🐙 **GitHub:** [github.com/SantiagoRicardoRamirez](https://github.com/SantiagoRicardoRamirez)
+
+## ☁️ Deployment (Vercel Recommended)
+
+1. Push your project to GitHub
+2. Import it into your [Vercel Dashboard](https://vercel.com)
+3. Add the environment variables listed above
+4. Deploy — Vercel will automatically handle the build & hosting
+
+## 🪪 License
+
+This project is licensed under the **MIT License** — feel free to use, modify, and distribute it with proper attribution.
+
+---
+
+Made with ❤️ by Santiago Ricardo Ramírez
+
